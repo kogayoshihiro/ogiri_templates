@@ -1,0 +1,65 @@
+/*ヘッダー*/
+.home-menu {
+    padding: 0.5em;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+}
+.home-menu {
+    background: #770000;
+    width:100%;
+}
+.pure-menu.pure-menu-fixed {
+    /* Fixed menus normally have a border at the bottom. */
+    border-bottom: none;
+    /* I need a higher z-index here because of the scroll-over effect. */
+
+}
+.home-menu a {
+    color: white;
+    font-size:18px;
+    padding:3px,20px;
+
+}
+.right-btn a:hover,
+.home-menu li a:hover{
+    background: none;
+    border: none;
+    color: #AECFE5;
+}
+
+.home-menu ul{
+  text-align: left;
+  float:left;
+}
+.right-btn{text-align: right;}
+.right-btn a{display:inline-block;}
+/*ここまでヘッダー*/
+
+.footer{
+  background-color:#770000;
+  text-align:center;
+  width:100%;
+  margin-top:60px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.footer a{color: white;
+ font-size:16px;
+ padding:3px,20px;
+}
+.footer a:hover{background: none;
+ border: none;
+ color: #AECFE5;
+}
+.res-br{
+  display:none;
+}
+@media screen and (max-width:767px){
+  .res-br{
+    display:block;
+  }
+  .footer a{
+    font-size:14px;
+  }
+}
+/*ここまでフッター*/

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/pure-min.css">
+  <link rel="stylesheet" href="/static/grids-responsive-min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/header-and-footer.css">
+    
+  <title>大喜利の塔｜ガチでボケるなら大喜利の塔</title>
+</head><body>
+
+
+<div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+ <ul class="pure-menu-list">
+  <li class="pure-menu-item"><a href="#" class="pure-menu-link">ボケる</a></li>
+  <li class="pure-menu-item"><a href="#" class="pure-menu-link">投票</a></li>
+  <li class="pure-menu-item"><a href="#" class="pure-menu-link">ランキング</a></li>
+ </ul>
+{% block right_button %}
+{% endblock %}
+</div>
+<div class="main">
+{% block contents %}
+{% endblock %}
+</div><!-- end of #main -->
+{% block footer %}
+<div class="footer pure-menu pure-menu-horizontal">
+  <ul class="pure-menu-list">
+   <li class="pure-menu-item"><a href="index.html" class="pure-menu-link">TOPページへ</a></li>
+   <li class="pure-menu-item"><a href="#" class="pure-menu-link">運営について</a></li><br class="res-br">
+   <li class="pure-menu-item"><a href="kiyaku.html" class="pure-menu-link">利用規約</a></li>
+
+
+   <li class="pure-menu-item"><a href="#" class="pure-menu-link">お問い合わせ</a></li><br class="res-br">
+   <li class="pure-menu-item"><a href="privacy.html" class="pure-menu-link">プライバシーポリシー</a></li>
+    </ul>
+</div>
+{% endblock %}
+</body></html>
+
